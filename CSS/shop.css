@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.shop-main {
+	//display:flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.left-side {
+	//background-color:red;	
+	//flex:1;
+	width:25%;
+	float:left;
+	//height:100% !important;
+	//border-right: 1px solid black;
+}
+
+	
+
+.filters {
+	padding: 15px;
+	margin-left:30px;
+}
+
+.categories > h3 {
+	margin:0;
+	font-size:30px;
+	padding: 5px 0; 	
+	color: #e7ab3c;
+}
+
+.categories >ul li {
+	padding: 5px;	
+}
+
+.categories > ul li a, .categories > ul li {
+	color: #5B4F4C;
+	font-size:20px;	
+}
+
+.categories > ul li a:hover{
+	color: #E7AB3C;
+}
+
+input[type=checkbox]{
+	height: 14px;
+    width: 14px;
+    border: 2px solid #ebebeb;
+    border-radius: 2px;	
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;	
+}
+ 
+.search-container  {
+	display: flex;	
+}
+  
+button {
+  padding: 8px 10px;
+  margin-top: 8px;
+  background: #e7ab3c;
+  font-size: 17px;
+  cursor: pointer;
+  border:none;
+  color:#fff;
+}
+  
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  width: 150px;
+  border: 1 px solid #eee;
+}
+
+.right-side{
+	float:left;
+	///width:70%;
+	//flex:3;
+	//height:100vh;
+	//	height:100%;
+	//background-color:green;
+	border-left: 1px solid black;
+}
+
+.tshirt-div{
+	width: 300px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.24);
+}
+
+.inner-tshirt{
+	height: 400px;
+	width: 300px;
+}
+
+.result {
+	margin-top: 150px;	
+}
+
+.main-tshirt{
+	padding-left:30px;	
+	margin-bottom: 10px;
+}
+
+
+.tshirt-div {
+	margin-left: 15px;
+}	
