@@ -83,10 +83,12 @@ a{
 
 @media(max-width: 511px) {
 	.main-menu li a{
-		padding: 11px 15px;
+		padding: 11px 14px;
 		font-size: 15px;	
 	}	
 }
+
+
 
 .main-menu li a:hover{
 	background-color:#E7AB3C;
