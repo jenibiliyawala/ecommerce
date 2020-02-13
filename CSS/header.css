@@ -27,6 +27,22 @@ a{
 	color:#fff;
 }
 
+@media( max-width: 618px ) {
+	.top-head{ 
+		font-size: 20px;
+	}
+}
+
+@media(max-width: 470px){
+	.phdiv{
+		display:none;	
+	}
+	
+	.top-head{ 
+		font-size: 17px;
+	}
+}
+
 .logo-div{
 	display:flex;
 	height: 120px;
@@ -56,6 +72,20 @@ a{
 	padding: 20px 50px;
 	display: block;
 	font-size: 25px;	
+}
+
+@media(max-width: 767px) {
+	.main-menu li a{
+		padding: 13px 30px;
+		font-size: 20px;	
+	}	
+}
+
+@media(max-width: 511px) {
+	.main-menu li a{
+		padding: 11px 15px;
+		font-size: 15px;	
+	}	
 }
 
 .main-menu li a:hover{
