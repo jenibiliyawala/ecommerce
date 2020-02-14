@@ -1,11 +1,9 @@
-
 .slider-div{
 	background:url("../image/s1.jpg");
 	width: 100%;
 	height:75vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/	
 }
 
 @media(max-width: 1200px) {
@@ -15,7 +13,6 @@
 		height:60vh;
 		background-size: cover;
 		background-repeat: no-repeat;
-		/*background-attachment: fixed;*/	
 	}	
 }
 
@@ -26,7 +23,6 @@
 		height:50vh;
 		background-size: cover;
 		background-repeat: no-repeat;
-		/*background-attachment: fixed;*/	
 	}	
 }
 
@@ -37,7 +33,6 @@
 		height:40vh;
 		background-size: cover;
 		background-repeat: no-repeat;
-		/*background-attachment: fixed;*/	
 	}	
 }
 
@@ -67,35 +62,29 @@
 }
 
 @media (max-width: 880px) {
+	.main-inner-div{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
 
-.main-inner-div{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
+	.tshirt-div{
+		margin-bottom: 30px;
+	}
 
-.tshirt-div{
-	margin-bottom: 30px;
-}
-
-.hide {
-	display:none;	
-}
-
+	.hide {
+		display:none;	
+	}
 }
 
 .main-tshirt h2{
 	text-align:center;
-	/*margin-top: 150px;*/
-	/*height:150px;*/
 }
 
 .tshirt-div{
 	width: 350px;
-	/*border: 3px solid #eee;*/
     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.24);
-	/*box-shadow: 10px 10px 15px #ddd;*/
 }
 
 @media(max-width: 1049px){
@@ -106,16 +95,13 @@
 
 .tshirt-div:hover .buy{
 	opacity: 1;
-	/*display: block;*/
 }
 
 .buy{
 	text-align: center;
 	font-size: 25px;
-	//opacity: 0;
 	padding:10px;
 	background-color: rgba(0,0,0,0.7);
-	/*display: none;*/
 }
 
 .buy a {
